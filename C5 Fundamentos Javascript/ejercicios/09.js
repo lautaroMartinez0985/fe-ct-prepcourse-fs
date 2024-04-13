@@ -8,6 +8,18 @@ function esNuloOIndefinido(valor) {
   // 22 ---> false
   // "texto" ---> false
   // Tu código:
-}
+  if (valor === null || valor=== undefined ){
+        return true
+  }
+  else (valor === Number || valor === String || valor === Boolean )
+   {
+    return false
+  };
+};
+
+
+ console.log (esNuloOIndefinido(9));
+
+
 
 module.exports = esNuloOIndefinido;
