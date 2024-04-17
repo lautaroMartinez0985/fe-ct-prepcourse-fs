@@ -12,10 +12,8 @@ function esNumeroEntero(numero) {
     return true;
   }
 
- else {
-  return false
- }
+  return false;
 }
-console.log (esNumeroEntero(2))
+console.log (esNumeroEntero(2.3))
 
 module.exports = esNumeroEntero;

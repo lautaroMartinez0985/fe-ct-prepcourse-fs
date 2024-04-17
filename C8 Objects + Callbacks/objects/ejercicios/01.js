@@ -4,7 +4,8 @@ const obtenerValorPropiedad = (objeto, propiedad) => {
    // Tu código:
    const a = objeto[propiedad];
 
-   return a;
+   return console.log(a);
 };
-
+let objeto={perro:"negro"}
+obtenerValorPropiedad(objeto,"perro")
 module.exports = obtenerValorPropiedad;

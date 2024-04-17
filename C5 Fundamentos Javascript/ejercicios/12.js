@@ -6,14 +6,11 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
-    const miCadena1 = str1.length
-    const miCadena2 = str2.length
-    if (miCadena1 == miCadena2){
+ 
+    if (str1.length === str2.length){
       return true
     }
-    else {
-      return false
-    }
+   return false
 
 }
 

@@ -9,9 +9,7 @@ function sonIguales(x, y) {
   if (x === y){
     return true
   }
-  else {
-    return false
-  }
+  return false
 }
 console.log(sonIguales(2,2))
 module.exports = sonIguales;

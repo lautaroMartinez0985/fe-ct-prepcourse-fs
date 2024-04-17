@@ -11,14 +11,12 @@ function esNuloOIndefinido(valor) {
   if (valor === null || valor=== undefined ){
         return true
   }
-  else (valor === Number || valor === String || valor === Boolean )
-   {
-    return false
-  };
+  return false
+  
 };
 
 
- console.log (esNuloOIndefinido(9));
+ console.log (esNuloOIndefinido());
 
 
 
